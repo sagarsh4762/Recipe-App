@@ -72,7 +72,7 @@ class _HomeState extends State<Home> {
   @override
   void initState() {
     super.initState();
-    getRecipes("Ladoo");
+    getRecipes("Recipe");
     getRecommended();
   }
 
